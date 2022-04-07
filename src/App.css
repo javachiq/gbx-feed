@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.page-title{
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #6e5645 !important;
+  border-color: #32271f !important;
+  background-color: #f0ebe8 !important; 
+}
+
+.filter-text{
+  background-color: #f0ebe8 !important; 
+}
+
+.form-control {
+ border-color: #32271f !important;
+}
+
+.card {
+ border-color: #32271f !important;
+ color: #32271f !important;
+}
+
+.card-title {
+ font-family: Roboto, sans-serif;
+ font-weight: bolder;
+ text-align: left;
+ text-align: justify;
+}
+.card-body {
+  text-align: justify;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.btn-sort{
+  color: #fff;
+  background-color: #6e5645 !important;
+  border-color: #32271f !important; 
+}
+
+.btn-outline-secondary {
+  color: #6c757d;
+  border-color: #32271f !important; 
+}
